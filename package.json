@@ -1,0 +1,21 @@
+{
+    "name": "UsersApi-render",
+    "version": "1.3.0",
+    "description": "REST API - Users, configured to be deployed on render.com platform",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "engines": {
+      "node": ">=14.0.0",
+      "npm": ">=2.1.x"
+    },
+    "authors": [
+      "Viktor"
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "restify": "=11.1.0",
+      "save": "=2.9.0"
+    }
+}
